@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${pageTitle}">Dashboard</title>
+</head>
+<body>
+<h1 th:text="${pageTitle}">Dashboard</h1>
+<p>
+    Agora é:
+    <strong th:text="${now.toString()}">2025-10-08T12:34</strong>
+</p>
+<ul>
+    <li th:each="item : ${itens}" th:text="${item}">Item</li>
+</ul>
+<div th:if="${message}" th:text="${message}"></div>
+<p><a th:href="@{/login}">Voltar</a></p>
+</body>
+</html>
