@@ -55,7 +55,7 @@ CP-Java/
 ### **Clonar o Repositório**
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Vinicius-A-Siqueira/CP5-JAVA-2025/
 cd CP-Java
 ```
 
